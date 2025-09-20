@@ -4,7 +4,7 @@
 }
 
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -18,8 +18,31 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.center {
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+}
+
+.large {
+  font-size: 3rem;
+}
+
 .header {
+  display: flex;
+  flex: 1;
+
   width: auto;
   height: 20vh;
   background-color: rgb(97, 138, 158);
 }
+
+.invert {
+  filter: invert(100%);
+}
+
+.large-icon {
+  width: 3rem;
+  height: auto;
+}
+
