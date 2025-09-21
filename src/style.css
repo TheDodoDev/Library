@@ -49,19 +49,24 @@
 
 .library {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 20%));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 20%));
   gap: 5%;
 
   width: auto;
   height: fit-content;
 
+  justify-content: center;
+  align-items: center;
   margin: 5%;
 }
 
 .book {
   background-color: rgb(97, 138, 158);
 
-  width: 15vw;
-  height: 15vw;
+  min-width: 250px;
+  min-height: 250px;
+
+  width: 20vw;
+  height: 20vw;
 }
 
