@@ -35,6 +35,7 @@
   width: auto;
   height: 20vh;
   background-color: rgb(97, 138, 158);
+  
 }
 
 .invert {
@@ -44,5 +45,23 @@
 .large-icon {
   width: 3rem;
   height: auto;
+}
+
+.library {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 20%));
+  gap: 5%;
+
+  width: auto;
+  height: fit-content;
+
+  margin: 5%;
+}
+
+.book {
+  background-color: rgb(97, 138, 158);
+
+  width: 15vw;
+  height: 15vw;
 }
 
